@@ -532,53 +532,28 @@ index f7d6f85..5e4a420 100644
              }
 
 
-From 65aa2299038fc828b779522b273723cb8b214ca5 Mon Sep 17 00:00:00 2001
-From: fire855 <thefire855@gmail.com>
-Date: Sun, 17 Apr 2016 13:39:34 +0200
-Subject: [PATCH] Add prepareWithoutScan (for FMRadio)
+From 81042563937df3a3501e99eed049d26c369237d9 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Vojt=C4=9Bch=20Hejsek?= <hejsekvojtech@gmail.com>
+Date: Sat, 17 Jun 2017 21:13:43 +0200
+Subject: [PATCH] prepareWithoutScan() for MediaTek
 
-Change-Id: I81fb9ec96597f07310ca89af84ca85d647eecee0
 ---
- api/current.txt                           | 1 +
- api/system-current.txt                    | 1 +
- media/java/android/media/MediaPlayer.java | 3 +++
- 3 files changed, 5 insertions(+)
+ media/java/android/media/MediaPlayer.java | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
 
-diff --git a/api/current.txt b/api/current.txt
-index c45cc3dbbf47e..3b8eaf0d7b168 100644
---- a/api/current.txt
-+++ b/api/current.txt
-@@ -16106,6 +16106,7 @@ package android.media {
-     method public boolean isPlaying();
-     method public void pause() throws java.lang.IllegalStateException;
-     method public void prepare() throws java.io.IOException, java.lang.IllegalStateException;
-+    method public void prepareWithoutScan() throws java.io.IOException, java.lang.IllegalStateException;
-     method public void prepareAsync() throws java.lang.IllegalStateException;
-     method public void release();
-     method public void reset();
-diff --git a/api/system-current.txt b/api/system-current.txt
-index 1e7b94e883e4c..ca53796e84616 100644
---- a/api/system-current.txt
-+++ b/api/system-current.txt
-@@ -17373,6 +17373,7 @@ package android.media {
-     method public boolean isPlaying();
-     method public void pause() throws java.lang.IllegalStateException;
-     method public void prepare() throws java.io.IOException, java.lang.IllegalStateException;
-+    method public void prepareWithoutScan() throws java.io.IOException, java.lang.IllegalStateException;
-     method public void prepareAsync() throws java.lang.IllegalStateException;
-     method public void release();
-     method public void reset();
 diff --git a/media/java/android/media/MediaPlayer.java b/media/java/android/media/MediaPlayer.java
-index b3f25eea565de..3a95717be515b 100644
+index b3f25eea565..1509af4481e 100644
 --- a/media/java/android/media/MediaPlayer.java
 +++ b/media/java/android/media/MediaPlayer.java
-@@ -1158,6 +1158,9 @@ public void prepare() throws IOException, IllegalStateException {
+@@ -1158,7 +1158,10 @@ public void prepare() throws IOException, IllegalStateException {
          _prepare();
          scanInternalSubtitleTracks();
      }
+-
 +    public void prepareWithoutScan() throws IOException, IllegalStateException {
 +        _prepare();
 +    }
- 
++    
      private native void _prepare() throws IOException, IllegalStateException;
  
+     /**
