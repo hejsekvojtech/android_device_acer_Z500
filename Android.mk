@@ -23,9 +23,9 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-LOCAL_PATH := $(call my-dir)
+ifneq ($(filter Z500,$(TARGET_DEVICE)),)
 
-ifeq ($(TARGET_DEVICE),Z500)
+LOCAL_PATH := $(call my-dir)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
