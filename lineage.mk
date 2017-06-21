@@ -19,7 +19,7 @@
 # Release name
 PRODUCT_RELEASE_NAME := Z500
 
-# Inherit some common CM stuff.
+# Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full.mk)
 
 # Inherit from hardware-specific part of the product configuration
