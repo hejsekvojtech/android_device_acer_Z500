@@ -28,7 +28,7 @@ This branch is for building LineageOS 13.0 (or Android Marshmallow 6.0.1 AOSP ba
 - [x] Video recording
 - [x] Camera
 - [x] SMS (sending & recieving)
-- [x] All sensor
+- [x] All sensors
 - [x] Offline charging
 - [x] 2G/3G switch
 - [x] Data connection
