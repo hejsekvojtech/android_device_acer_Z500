@@ -1,5 +1,4 @@
-Acer Liquid Z500
-===============
+# Acer Liquid Z500
 
 Acer Liquid Z500 device (codenamed _"Z500"_) is low-range smartphone from Acer.
 
@@ -19,3 +18,18 @@ Camera  | 8MPx, LED Flash
 ![Acer Liquid Z500](https://image.ibb.co/deHuhk/maxresdefault.png)
 
 This branch is for building LineageOS 13.0 (or Android Marshmallow 6.0.1 AOSP based ROMs) ROMs.
+
+## What's working
+- [x] FM Radio
+- [x] Calls
+- [x] USSD code
+- [x] WiFi
+- [x] Bluetooth
+- [x] Video recording
+- [x] Camera
+- [x] SMS (sending & recieving)
+- [x] All sensor
+- [x] Offline charging
+- [x] 2G/3G switch
+- [x] Data connection
+- [ ] VPN
