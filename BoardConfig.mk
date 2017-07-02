@@ -15,9 +15,9 @@
 #
 
 # inherit from the proprietary version
--include vendor/acer/Z500/BoardConfigVendor.mk
+-include vendor/acer/acer_Z500/BoardConfigVendor.mk
 
-LOCAL_PATH := device/acer/Z500
+LOCAL_PATH := device/acer/acer_Z500
 
 # Board
 TARGET_BOARD_PLATFORM := mt6582
@@ -58,7 +58,7 @@ COMMON_GLOBAL_CPPFLAGS += -DMTK_HARDWARE
 BLOCK_BASED_OTA := false
 
 # RIL
-BOARD_RIL_CLASS := ../../../device/acer/Z500/ril/
+BOARD_RIL_CLASS := ../../../device/acer/acer_Z500/ril/
 
 BOARD_CONNECTIVITY_VENDOR := MediaTek
 BOARD_CONNECTIVITY_MODULE := conn_soc
@@ -86,7 +86,7 @@ BOARD_KERNEL_CMDLINE :=
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
-BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/bootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/mkbootimg.mk
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --second_offset 0x00f00000 --tags_offset 0x00000100
 BOARD_CUSTOM_BOOTIMG := true
 
@@ -140,7 +140,7 @@ TARGET_CPU_MEMCPY_OPT_DISABLE := true
 USE_MINIKIN := true
 
 # Selinux
-BOARD_SEPOLICY_DIRS += device/acer/Z500/sepolicy
+BOARD_SEPOLICY_DIRS += device/acer/acer_Z500/sepolicy
 
 # Sepolicy hack for old kernel, mt6582 version is 26.
 POLICYVERS := 26

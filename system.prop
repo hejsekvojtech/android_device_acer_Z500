@@ -1,5 +1,5 @@
 #
-# system.prop for Z500
+# system.prop for acer_Z500
 #
 service.adb.root=1
 ro.sf.lcd_density=320
