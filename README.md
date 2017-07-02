@@ -1,6 +1,6 @@
 # Acer Liquid Z500
 
-Acer Liquid Z500 device (codenamed _"Z500"_) is low-range smartphone from Acer.
+Acer Liquid Z500 device (codenamed as _"acer_Z500"_) is low-range smartphone from Acer.
 
 Acer Liquid Z500 was announced in 2014, Septeber.
 
