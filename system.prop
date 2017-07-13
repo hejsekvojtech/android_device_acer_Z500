@@ -78,8 +78,8 @@ ro.audio.silent=0
 ro.media.dec.jpeg.memcap=8000000
 ro.media.enc.hprof.vid.bps=8000000
 ro.media.capture.maxres=8m
-ro.media.panorama.defres=3264×2448
-ro.media.panorama.frameres=3264×2448
+ro.media.panorama.defres=2448x3264
+ro.media.panorama.frameres=2448x3264
 ro.camcorder.videoModes=true
 ro.media.enc.hprof.vid.fps=65
 
