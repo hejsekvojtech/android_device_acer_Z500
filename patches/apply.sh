@@ -28,4 +28,7 @@
  cd external/sepolicy
  patch -p1 < ../../device/acer/acer_Z500/patches/external_sepolicy.patch
  cd ../..
+ cd external/wpa_supplicant_8
+ patch -p1 < ../../device/acer/acer_Z500/patches/wpa_supplicant_8.patch
+ cd ../..
  echo Successfuly patched! Go ahead and start building!
