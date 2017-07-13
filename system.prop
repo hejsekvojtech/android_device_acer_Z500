@@ -78,8 +78,8 @@ ro.audio.silent=0
 ro.media.dec.jpeg.memcap=8000000
 ro.media.enc.hprof.vid.bps=8000000
 ro.media.capture.maxres=8m
-ro.media.panorama.defres=3264×1840
-ro.media.panorama.frameres=1280×720
+ro.media.panorama.defres=3264×2448
+ro.media.panorama.frameres=3264×2448
 ro.camcorder.videoModes=true
 ro.media.enc.hprof.vid.fps=65
 
@@ -93,7 +93,8 @@ debug.composition.type=gpu
 
 # Scrolling
 windowsmgr.max_events_per_sec=150
-ro.min_pointer_dur=8 ro.max.fling_velocity=12000
+ro.min_pointer_dur=8
+ro.max.fling_velocity=12000
 ro.min.fling_velocity=8000
 
 # Video streaming
