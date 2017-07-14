@@ -1,7 +1,7 @@
-From 9bb494a29660875bc52c23eae8502aa90a5364f1 Mon Sep 17 00:00:00 2001
+From e055efd1dd13ee28623bc4d653893a0829c20d24 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Vojt=C4=9Bch=20Hejsek?= <hejsekvojtech@gmail.com>
-Date: Fri, 14 Jul 2017 16:42:35 +0200
-Subject: [PATCH] Change URL to API configuration
+Date: Fri, 14 Jul 2017 16:57:31 +0200
+Subject: [PATCH] Update config.xml
 
 ---
  res/values/config.xml | 2 +-
