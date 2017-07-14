@@ -32,7 +32,7 @@
  patch -p1 < ../../device/acer/acer_Z500/patches/wpa_supplicant_8.patch
  cd ../..
  cd packages/apps/CMUpdater
- patch -p1 < ../../device/acer/acer_Z500/patches/packages_apps_CMUpdater.patch
+ patch -p1 < ../../../device/acer/acer_Z500/patches/packages_apps_CMUpdater.patch
  cd ../../..
  clear
  echo Successfuly patched! Go ahead and start building!
