@@ -1,0 +1,20 @@
+From 9bb494a29660875bc52c23eae8502aa90a5364f1 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Vojt=C4=9Bch=20Hejsek?= <hejsekvojtech@gmail.com>
+Date: Fri, 14 Jul 2017 16:42:35 +0200
+Subject: [PATCH] Change URL to API configuration
+
+---
+ res/values/config.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/res/values/config.xml b/res/values/config.xml
+index 6f1e9cb5..65a66de7 100644
+--- a/res/values/config.xml
++++ b/res/values/config.xml
+@@ -9,5 +9,5 @@
+ -->
+ <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <!-- Updater Config Strings -->
+-    <string name="conf_update_server_url_def" translatable="false">https://download.lineageos.org/api</string>
++    <string name="conf_update_server_url_def" translatable="false">https://raw.githubusercontent.com/hejsekvojtech/CMUpdater-API/cm-13.0/acer_Z500/api.json</string>
+ </resources>
