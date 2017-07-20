@@ -112,18 +112,6 @@ debug.performance.tuning=1
 # RAM management
 ro.HOME_APP_ADJ=1
 
-# 3G
-ro.ril.hep=0
-ro.ril.hsxpa=2
-ro.ril.gprsclass=12
-ro.ril.enable.dtm=1
-ro.ril.hsdpa.category=8
-ro.ril.enable.a53=1
-ro.ril.enable.3g.prefix=1
-ro.ril.htcmaskw1.bitmask=4294967295
-ro.ril.htcmaskw1=14449
-ro.ril.hsupa.category=6
-
 ro.zygote.preload.enable=0
 
 ro.boot.selinux=disable
