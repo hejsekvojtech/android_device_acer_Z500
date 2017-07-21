@@ -18,4 +18,4 @@ To build:
 lunch omni_acer_Z500-eng
 make -j5 recoveryimage
 ```
-Kernel source is available at: https://github.com/hejsekvojtech/android_kernel_mediatek_lr55
+Kernel source is available at: https://github.com/hejsekvojtech/android_kernel_acer_mt6582
