@@ -1,8 +1,8 @@
 # Acer Liquid Z500
 
 Acer Liquid Z500 device (codenamed as _"acer_Z500"_) is a low-range smartphone from Acer.
-
 Acer Liquid Z500 was announced in 2014, Septeber.
+This branch is for building LineageOS 13.0 ROMs only.
 
 Basic   | Spec Sheet
 -------:|:-------------------------
@@ -16,9 +16,24 @@ Battery | 2000 mAh
 Display | 5.0" 720 x 1280 px
 Camera  | 8MPx, LED Flash
 
-![Acer Liquid Z500](https://image.ibb.co/deHuhk/maxresdefault.png)
+## Important hardware info
 
-This branch is for building LineageOS 13.0 ROMs only.
+Hardware | Information
+--------:|:-----------
+Flash | Kingston MMC04G
+WiFi | CONSYS_MT6582
+Charger | USE PMIC
+Lens AF | AD5823AF
+Back camera | ov8858_mipi_raw
+Front camera | ov2680_mipi_raw
+Als/ps | stk3x1x
+Accelerometer | KXTJ2_1009
+Touchscreen | gt9xx
+RAM | 1GB LPDDR2
+LCM | otm1283a_hd720_dsi
+BT | CONSYS_MT6582
+GPS | CONSYS_MT6582
+FM | CONSYS_MT6582
 
 ## What's working
 - [x] FM Radio
@@ -35,3 +50,5 @@ This branch is for building LineageOS 13.0 ROMs only.
 - [x] Data connection
 - [x] GPS
 - [ ] VPN
+
+![Acer Liquid Z500](https://image.ibb.co/deHuhk/maxresdefault.png)
