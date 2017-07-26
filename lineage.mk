@@ -24,7 +24,7 @@ $(call inherit-product, vendor/cm/config/common_full.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/acer/acer_Z500/device.mk)
-$(call inherit-product-if-exists, vendor/acer/acer_Z500/acer_Z500-vendor.mk)
+$(call inherit-product, vendor/acer/acer_Z500/acer_Z500-vendor.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := acer_Z500
