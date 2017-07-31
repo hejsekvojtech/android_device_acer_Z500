@@ -52,6 +52,7 @@ mediatek.wlan.ctia=0
 
 #
 wifi.tethering.interface=ap0
+#
 
 ro.opengles.version=131072
 
@@ -63,6 +64,7 @@ ro.sys.usb.mtp.whql.enable=0
 # Power off opt in IPO
 sys.ipo.pwrdncap=2
 
+# Switching Menu of ADB and MTP
 ro.sys.usb.storage.type=mtp,adb
 
 # USB BICR function
