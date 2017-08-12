@@ -168,10 +168,6 @@ PRODUCT_PACKAGES += \
     libfmjni \
     libmtkplayer
 
-# LatinIME
-PRODUCT_PACKAGES += \
-    LatinIME	
-
 PRODUCT_PACKAGES += \
     libgralloc_extra
 
