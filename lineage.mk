@@ -20,7 +20,7 @@
 PRODUCT_RELEASE_NAME := acer_Z500
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/acer/acer_Z500/device.mk)
