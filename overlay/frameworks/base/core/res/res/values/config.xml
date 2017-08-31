@@ -286,6 +286,9 @@
     <!-- enable doze powersaving mode -->
     <bool name="config_enableAutoPowerModes">true</bool>
     
+    <!-- Use wakelock for flashlight -->
+    <bool name="config_useWakeLockForFlashlight">true</bool>
+
     <!-- Hardware keys present on the device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
          of the following keys present:
