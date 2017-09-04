@@ -164,9 +164,7 @@ PRODUCT_PACKAGES += \
 # FMRadio
 PRODUCT_PACKAGES += \
     FMRadio \
-    libfmcust \
     libfmjni \
-    libmtkplayer
 
 PRODUCT_PACKAGES += \
     libgralloc_extra
