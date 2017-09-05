@@ -65,6 +65,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libbt-vendor
 
+PRODUCT_PACKAGES += \
+    libgralloc_extra
+
 # GSM
 PRODUCT_PACKAGES += libmt6582
 
