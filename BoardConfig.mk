@@ -98,28 +98,30 @@ BOARD_CUSTOM_BOOTIMG := true
 
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_mass_storage/lun%d/file"
 
-# TWRP
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/recovery.fstab
-BOARD_SUPPRESS_SECURE_ERASE := true
-RECOVERY_GRAPHICS_USE_LINELENGTH := true
-TW_THEME := portrait_hdpi
-RECOVERY_SDCARD_ON_DATA := true
-TW_INTERNAL_STORAGE_PATH := "/data/media"
-TW_INTERNAL_STORAGE_MOUNT_POINT := "data"
-TW_EXTERNAL_STORAGE_PATH := "/external_sd"
-TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
-TW_DEFAULT_EXTERNAL_STORAGE := true
+ TWRP
+TARGET_NO_TWO_STEP_RECOVERY := true
+TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
+BOARD_HAS_NO_SELECT_BUTTON := true
 TW_NO_REBOOT_BOOTLOADER := true
-TW_INCLUDE_CRYPTO := true
+TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/recovery.fstab
+TARGET_RECOVERY_DEVICE_DIRS += $(LOCAL_PATH)
+TW_THEME := portrait_hdpi
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+TW_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/mt_usb/musb-hdrc.0/gadget/lun%d/file
+TW_MAX_BRIGHTNESS := 255
+RECOVERY_SDCARD_ON_DATA := true
+TW_DEFAULT_EXTERNAL_STORAGE := true
 TW_CRYPTO_FS_TYPE := "ext4"
+TW_CRYPTO_REAL_BLKDEV := "/dev/block/mmcblk0p7"
 TW_CRYPTO_MNT_POINT := "/data"
 TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered"
-TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
-TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
-TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
-# MTP causes a kernel panic on this device
-TW_EXCLUDE_MTP := true
-
+TW_NO_USB_STORAGE := true
+TW_EXCLUDE_SUPERSU := true
+TW_INCLUDE_FB2PNG := true
+TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone1/temp
+TW_EXTRA_LANGUAGES := true
+TW_BUILD_ZH_CN_SUPPORT := true
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_MTK := true
