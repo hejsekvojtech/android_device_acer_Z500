@@ -20,7 +20,7 @@ Acer Liquid Z500 was announced and released in September, 2014.
 | Battery       | Non-removable Li-Ion 2000 mAh       | Als/ps        | stk3x1x                             |
 | Dimensions    | 145 x 73 x 8.8 mm                   | Accelerometer | KXTJ2_1009                          |
 | Display       | 720 x 1280 px, 5.0 inches (295 PPI) | Touchscreen   | gt9xx                               |
-| Rear camera   | 8 MPx, f/2.0, autofocus, LED flash  | RAM           | 1GB LPDDR2                          |
+| Rear camera   | 8 MPx, f/2.0, autofocus, LED flash  | RAM           | 1GB / 2GB LPDDR2                    |
 | Front camera  | 2 MPx, f/2.0                        | LCM           | otm1283a_hd720_dsi                  |
 | WLAN          | Wi-Fi 802.11 b/g/n, hotspot         | BT, GPS, FM   | CONSYS_MT6582                       |
 
