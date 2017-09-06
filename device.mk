@@ -70,8 +70,6 @@ PRODUCT_PACKAGES += \
     libbt-vendor
 
 # GSM
-#PRODUCT_PACKAGES += \
-#    gsm0710muxd
 PRODUCT_PACKAGES += libmt6582
 
 # GPS
