@@ -98,7 +98,7 @@ BOARD_CUSTOM_BOOTIMG := true
 
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_mass_storage/lun%d/file"
 
- TWRP
+# TWRP
 TARGET_NO_TWO_STEP_RECOVERY := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 BOARD_HAS_NO_SELECT_BUTTON := true
@@ -122,6 +122,7 @@ TW_INCLUDE_FB2PNG := true
 TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone1/temp
 TW_EXTRA_LANGUAGES := true
 TW_BUILD_ZH_CN_SUPPORT := true
+
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_MTK := true
