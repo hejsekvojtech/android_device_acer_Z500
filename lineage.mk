@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-## Specify phone tech before including full_phone
+# Specify phone tech before including full_phone
 
 # Release name
 PRODUCT_RELEASE_NAME := acer_Z500
@@ -26,7 +26,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, device/acer/acer_Z500/device.mk)
 $(call inherit-product, vendor/acer/acer_Z500/acer_Z500-vendor.mk)
 
-## Device identifier. This must come after all inclusions
+# Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := acer_Z500
 PRODUCT_NAME := lineage_acer_Z500
 PRODUCT_BRAND := acer
