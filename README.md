@@ -3,7 +3,7 @@ Copyright (C) 2017 - The LineageOS Project
 Device configuration for Acer Liquid Z500
 ==============
 
-The Acer Liquid Z500 (codenamed _"acer_Z500"_) is a low-end smartphones from Acer.
+The Acer Liquid Z500 (codenamed _"acer_Z500"_) is a low-end smartphone from Acer.
 
 Acer Liquid Z500 was announced and released in September, 2014.
 
