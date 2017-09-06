@@ -130,6 +130,9 @@ WIFI_DRIVER_FW_PATH_STA:=STA
 WIFI_DRIVER_FW_PATH_AP:=AP
 WIFI_DRIVER_FW_PATH_P2P:=P2P
 
+# Include SuperSU
+WITH_SU := true
+
 # GPS
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
@@ -138,6 +141,9 @@ TARGET_CPU_MEMCPY_OPT_DISABLE := true
 
 # Enable Minikin text layout engine (will be the default soon)
 USE_MINIKIN := true
+
+# Display
+TARGET_BOOTANIMATION_MULTITHREAD_DECODE := true
 
 # Selinux
 BOARD_SEPOLICY_DIRS += device/acer/acer_Z500/sepolicy
