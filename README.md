@@ -1,54 +1,44 @@
-# Acer Liquid Z500
+Copyright (C) 2017 - The LineageOS Project
 
-Acer Liquid Z500 device (codenamed as _"acer_Z500"_) is a low-range smartphone from Acer.
-Acer Liquid Z500 was announced in 2014, Septeber.
-This branch is for building LineageOS 13.0 ROMs only.
+Device configuration for Acer Liquid Z500
+==============
 
-Basic   | Spec Sheet
--------:|:-------------------------
-CPU     | 1.3GHz Quad-Core MT6582
-GPU     | Mali-400MP2
-Memory  | 1GB/2GB RAM
-Shipped Android Version | 4.4.2
-Kernel version | 3.4.67
-Storage | 4GB/16GB
-Battery | 2000 mAh
-Display | 5.0" 720 x 1280 px
-Camera  | 8MPx, LED Flash
+The Acer Liquid Z500 (codenamed _"acer_Z500"_) is a low-end smartphones from Acer.
 
-## Important hardware info
+Acer Liquid Z500 was announced and released in September, 2014.
 
-Hardware | Information
---------:|:-----------
-Flash | Kingston MMC04G
-WiFi | CONSYS_MT6582
-Charger | USE PMIC
-Lens AF | AD5823AF
-Back camera | ov8858_mipi_raw
-Front camera | ov2680_mipi_raw
-Als/ps | stk3x1x
-Accelerometer | KXTJ2_1009
-Touchscreen | gt9xx
-RAM | 1GB LPDDR2
-LCM | otm1283a_hd720_dsi
-BT | CONSYS_MT6582
-GPS | CONSYS_MT6582
-FM | CONSYS_MT6582
+## Device specifications
 
-## What's working
-- [x] FM Radio
-- [x] Calls
-- [x] USSD code
-- [x] WiFi
-- [x] Bluetooth
-- [x] Video recording
-- [x] Camera
-- [x] SMS (sending & recieving)
-- [x] All sensors
-- [x] Offline charging
-- [x] 2G/3G switch
-- [x] Data connection
-- [x] GPS
-- [ ] VPN
+| Device        | Acer Liquid Z500                    |
+|--------------:|:------------------------------------|
+| SoC           | MediaTek MT6582                     |
+| CPU           | Quad-core 1.3 GHz Cortex-A7         |
+| GPU           | 533MHz ARM Mali-400 MP2             |
+| Memory        | 1GB / 2GB RAM (LPDDR2)              |
+| Shipped Android version | 4.4.2                     |
+| Storage       | 4GB / 16GB                          |
+| Battery       | Non-removable Li-Ion 2000 mAh       |
+| Dimensions    | 145 x 73 x 8.8 mm                   |
+| Display       | 720 x 1280 px, 5.0 inches (295 PPI) |
+| Rear camera   | 8 MPx, f/2.0, autofocus, LED flash  |
+| Front camera  | 2 MPx, f/2.0                        |
+| Hardware      | Information                         |
+|--------------:|:------------------------------------|
+| Flash         | Kingston MMC04G                     |
+| WiFi          | CONSYS_MT6582                       |
+| Charger       | USE PMIC                            |
+| Lens AF       | AD5823AF                            |
+| Back camera   | ov8858_mipi_raw                     |
+| Front camera  | ov2680_mipi_raw                     |
+| Als/ps        | stk3x1x                             |
+| Accelerometer | KXTJ2_1009                          |
+| Touchscreen   | gt9xx                               |
+| RAM           | 1GB LPDDR2                          |
+| LCM           | otm1283a_hd720_dsi                  |
+| BT            | CONSYS_MT6582                       |
+| GPS           | CONSYS_MT6582                       |
+| FM            | CONSYS_MT6582                       |
 
-![Acer Liquid Z500](https://image.ibb.co/deHuhk/maxresdefault.png)
+## Device picture
+
+![Acer Liquid Z500](https://image.ibb.co/deHuhk/maxresdefault.png "Acer Liquid Z500 running LineageOS 13.0")
