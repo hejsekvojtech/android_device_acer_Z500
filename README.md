@@ -22,7 +22,8 @@ Acer Liquid Z500 was announced and released in September, 2014.
 | Display       | 720 x 1280 px, 5.0 inches (295 PPI) |
 | Rear camera   | 8 MPx, f/2.0, autofocus, LED flash  |
 | Front camera  | 2 MPx, f/2.0                        |
-| Hardware      | Information                         |
+
+| Hardware      | Component                           |
 |--------------:|:------------------------------------|
 | Flash         | Kingston MMC04G                     |
 | WiFi          | CONSYS_MT6582                       |
