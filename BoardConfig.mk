@@ -150,6 +150,3 @@ BOARD_SEPOLICY_DIRS += device/acer/acer_Z500/sepolicy
 
 # Sepolicy hack for old kernel, mt6582 version is 26.
 POLICYVERS := 26
-
-# Hack for build
-$(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
