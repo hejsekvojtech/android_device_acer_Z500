@@ -1,4 +1,4 @@
-# mt6582 storage specific rc file.
+# Platform specific storage configuration.
 import /init.mt6582_common.rc
 
 on init

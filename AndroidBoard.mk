@@ -20,6 +20,11 @@ include $(CLEAR_VARS)
 
 ALL_PREBUILT += $(INSTALLED_KERNEL_TARGET)
 
+ifneq ($(TARGET_PREBUILT_KERNEL),)
+$(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr:
+	mkdir -p $@
+endif
+
 # include the non-open-source counterpart to this file
 -include vendor/acer/acer_Z500/AndroidBoardVendor.mk
 
@@ -30,7 +35,3 @@ $(shell mkdir -p $(TARGET_OUT_KEYLAYOUT); \
 # copy permissions overrides
 $(shell mkdir -p $(TARGET_OUT_ETC)/permissions; \
     cp -pf device/acer/acer_Z500/configs/android.hardware.camera.xml $(TARGET_OUT_ETC)/permissions)
-
-# copy apns-conf overrides
-$(shell mkdir -p $(TARGET_OUT_ETC); \
-    cp -pf device/acer/acer_Z500/configs/apns-conf.xml $(TARGET_OUT_ETC))

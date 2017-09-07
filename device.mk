@@ -123,9 +123,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/configs/android.hardware.camera.xml:system/etc/permissions/android.hardware.camera.xml
 
-# Apns-conf overrides
 PRODUCT_COPY_FILES += \
-     $(LOCAL_PATH)/configs/apns-conf.xml:system/etc/apns-conf.xml
+     $(LOCAL_PATH)/configs/spn-conf.xml:system/etc/spn-conf.xml
 
 # Keylayout
 PRODUCT_COPY_FILES += \
